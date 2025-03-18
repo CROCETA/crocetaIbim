@@ -9,6 +9,6 @@
 - [x] Executar o projeto para verificar se está funcionando  
 - [X] Editar o arquivo `app.js` para criar uma página HTML básica de uma loja (último trabalho do ano passado)  
 - [X] Criar um arquivo `README.md` e inserir esse arquivo de texto nele
-- [] Comitar as alterações no Git  
-- [ ] Enviar as alterações para o repositório remoto no GitHub  (git push)
+- [x] Comitar as alterações no Git  
+- [] Enviar as alterações para o repositório remoto no GitHub  (git push)
 - [ ] Enviar o link do repositório para o professor no ECLASS 
