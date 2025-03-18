@@ -1,0 +1,176 @@
+.container{
+  width: 100%;
+  margin: 0 auto;
+  
+  }
+  
+  .retangulo{
+      background-color: blue;
+      width: 415px;
+      height: 59px;
+  }
+  
+  .moeda{
+  width: 50px;
+  height: 50px;
+      
+  }
+  .moeda img{
+      width: 100%;
+      height: 100%;
+  }
+  
+  .foto{
+  width: 415px;
+  height: 350px;
+  }
+  .foto img{
+      width: 100%;
+      height: 100%;
+  }
+  
+  .quadradofundo{
+      background-color: gainsboro;
+      width: 415px;
+      height: 696px;
+      border-radius: 34px;
+     margin-top: 20px;
+     display: grid;
+     justify-content: center;
+     padding: 30px 0;
+     gap: 20px;
+     
+  }
+  
+  .foto2{
+      width: 169px;
+      height: 164px;
+      position: relative;
+      
+  }
+  
+  .foto2 img{  
+      width: 169px;
+      height: 164px;
+  }
+  
+  .vendido {
+      width: 169px;
+      height: 164px;
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+  
+  
+  .quadradobaixo{
+      background-color: blue;
+      width: 415px;
+      margin-top: 20px;
+      display: flex;
+     justify-content: center;
+  
+     
+  }
+  .youtube{
+      width: 123px;
+      height: 96px;
+      padding: 200px 0;
+     gap: 30px;
+     display: flex;
+     justify-content: center;
+  }
+  .youtube img{
+      width: 100%;
+      display: flex;
+  }
+  
+  .instagram{
+      width: 123px;
+      height: 96px;
+      padding: 200px 0;
+     gap: 30px;
+     display: flex;
+     
+  }
+  
+  .instagram img{
+      width: 100%;
+      display: flex;
+  }
+  
+  .texto{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  
+  }
+   
+  
+  @media(min-width: 768px) {
+      body{
+          margin: 0;
+      }
+  
+      .container{
+          width: 100%;
+      }
+      .retangulo{
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .foto{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 1200px;
+          height: 350px;
+          position: relative;
+          left: 70px;
+         
+      }
+      .quadradofundo{ 
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              gap: 20px;
+              width: 100%;
+              height: 190px;
+              margin: 0 auto;
+              border-radius: 0;
+          }
+  .foto2{
+      margin-left: 90px;
+  }
+  .azulao{
+      background-color: blue;
+      width: 600px;
+      height: 220px;
+      position: absolute;
+  }
+  .quadradobaixo{
+      width: 100%;
+      height: 150px;
+  }
+  
+  .youtube{
+      width: 123px;
+      height: 96px;
+      padding: 10px 0;
+     gap: 30px;
+     display: flex;
+     justify-content: center;
+  }
+  
+  .instagram{
+      width: 123px;
+      height: 96px;
+      padding: 10px 0;
+     gap: 30px;
+     display: flex;
+     
+  }
+        
+      }
+  
